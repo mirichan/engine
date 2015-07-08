@@ -18,13 +18,14 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rake',                            '~> 10.0.0'
 
-  s.add_dependency 'rails',                           '~> 3.2.19'
+  s.add_dependency 'rails',                           '~> 3.2.21'
 
   s.add_dependency 'devise',                          '2.2.7'
   s.add_dependency 'devise-encryptable',              '~> 0.1.1'
   s.add_dependency 'cancan',                          '1.6.7'
 
-  s.add_dependency 'mongoid',                         '~> 3.1.5'
+  s.add_dependency 'moped',                           '~> 1.5.3'
+  s.add_dependency 'mongoid',                         '~> 3.1.7'
   s.add_dependency 'mongoid-tree',                    '~> 1.0.3'
   s.add_dependency 'mongoid_migration',               '~> 0.0.8'
   s.add_dependency 'mongo_session_store-rails3',      '~> 4.1.1'
